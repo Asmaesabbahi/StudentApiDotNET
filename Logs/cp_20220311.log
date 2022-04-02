@@ -1,0 +1,17 @@
+2022-03-11T14:48:53.5522267+01:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2022-03-11T14:48:53.6830438+01:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2022-03-11T14:48:53.6847485+01:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\Administrator\Desktop\university\.net\WebApp"
+2022-03-11T14:48:53.9009337+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-11T14:48:53.9038541+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.
+2022-03-11T14:53:36.7978058+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-11T14:53:36.8068555+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.
+2022-03-11T14:53:59.4776254+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-11T14:53:59.4888328+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.
+2022-03-11T15:12:44.4829875+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-11T15:12:44.4934575+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.
+2022-03-11T15:17:49.4329231+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-11T15:17:49.4505766+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.
+2022-03-11T15:20:41.2453200+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-11T15:20:41.2825538+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.
+2022-03-11T15:23:33.3566567+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-11T15:23:33.3867661+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.

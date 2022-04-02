@@ -1,0 +1,50 @@
+﻿@page
+@model WebApp.Pages.Shared.IndexModel
+@{
+    ViewData["Title"] = "Student List";
+}
+
+<h1>Student List</h1>
+<body >
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Etudiant[0].Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Etudiant[0].Last_name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Etudiant[0].Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Etudiant[0].Tel)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Etudiant)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Last_name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tel)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

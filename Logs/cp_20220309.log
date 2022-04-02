@@ -1,0 +1,7 @@
+2022-03-09T15:59:31.6484648+01:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2022-03-09T15:59:31.8619501+01:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2022-03-09T15:59:31.8640769+01:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\Administrator\Desktop\university\.net\WebApp"
+2022-03-09T15:59:32.0749509+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-09T15:59:32.0782788+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.
+2022-03-09T16:01:46.3124725+01:00 [INF] (WebApp.Controllers.ValuesController) Writing to log file with INFORMATION severity level.
+2022-03-09T16:01:46.3233360+01:00 [DBG] (WebApp.Controllers.ValuesController) Writing to log file with DEBUG severity level.

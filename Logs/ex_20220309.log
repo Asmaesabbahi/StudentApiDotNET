@@ -1,0 +1,6 @@
+2022-03-09T15:59:32.0785601+01:00 [WRN] (WebApp.Controllers.ValuesController) Writing to log file with WARNING severity level.
+2022-03-09T15:59:32.0976149+01:00 [ERR] (WebApp.Controllers.ValuesController) Writing to log file with ERROR severity level.
+2022-03-09T15:59:32.0978439+01:00 [FTL] (WebApp.Controllers.ValuesController) Writing to log file with CRITICAL severity level.
+2022-03-09T16:01:46.3241814+01:00 [WRN] (WebApp.Controllers.ValuesController) Writing to log file with WARNING severity level.
+2022-03-09T16:01:46.3253047+01:00 [ERR] (WebApp.Controllers.ValuesController) Writing to log file with ERROR severity level.
+2022-03-09T16:01:46.3259805+01:00 [FTL] (WebApp.Controllers.ValuesController) Writing to log file with CRITICAL severity level.

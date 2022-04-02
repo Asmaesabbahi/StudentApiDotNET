@@ -1,0 +1,56 @@
+﻿@page
+@model WebApp.Admin.Etudiants.IndexModel
+
+@{
+    ViewData["Title"] = "Etudiant";
+}
+
+<h1>Student List</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Etudiant[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Etudiant[0].Last_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Etudiant[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Etudiant[0].Tel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Etudiant) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tel)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.EtudiantID"><b>Edit </b>t</a> |
+                <a asp-page="./Details" asp-route-id="@item.EtudiantID"><b>Details </b></a> |
+                <a asp-page="./Delete" asp-route-id="@item.EtudiantID"><b>Delete </b></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<p>
+    <a asp-page="Create"><b>Create New Student</b></a> ||
+    <a asp-page="/Admin/Etudiants/Index"><b>Show Student List</b></a>
+</p>
